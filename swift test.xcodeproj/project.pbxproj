@@ -6,26 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-<<<<<<< HEAD
 /* Begin PBXFileReference section */
 		FA556D262F20F0A000925A26 /* swift test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-=======
-/* Begin PBXBuildFile section */
-		FA2C60512F21180D007462A0 /* BasicContainers in Frameworks */ = {isa = PBXBuildFile; productRef = FA2C60502F21180D007462A0 /* BasicContainers */; };
-		FA2C60532F21180D007462A0 /* BitCollections in Frameworks */ = {isa = PBXBuildFile; productRef = FA2C60522F21180D007462A0 /* BitCollections */; };
-		FA2C60552F21180D007462A0 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = FA2C60542F21180D007462A0 /* Collections */; };
-		FA2C60572F21180D007462A0 /* ContainersPreview in Frameworks */ = {isa = PBXBuildFile; productRef = FA2C60562F21180D007462A0 /* ContainersPreview */; };
-		FA2C60592F21180D007462A0 /* DequeModule in Frameworks */ = {isa = PBXBuildFile; productRef = FA2C60582F21180D007462A0 /* DequeModule */; };
-		FA2C605B2F21180D007462A0 /* HashTreeCollections in Frameworks */ = {isa = PBXBuildFile; productRef = FA2C605A2F21180D007462A0 /* HashTreeCollections */; };
-		FA2C605D2F21180D007462A0 /* HeapModule in Frameworks */ = {isa = PBXBuildFile; productRef = FA2C605C2F21180D007462A0 /* HeapModule */; };
-		FA2C605F2F21180D007462A0 /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = FA2C605E2F21180D007462A0 /* OrderedCollections */; };
-		FA2C60612F21180D007462A0 /* TrailingElementsModule in Frameworks */ = {isa = PBXBuildFile; productRef = FA2C60602F21180D007462A0 /* TrailingElementsModule */; };
-		FA2C60632F21180D007462A0 /* _RopeModule in Frameworks */ = {isa = PBXBuildFile; productRef = FA2C60622F21180D007462A0 /* _RopeModule */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXFileReference section */
-		FA556D262F20F0A000925A26 /* MacAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
->>>>>>> local_main
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -41,19 +23,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
-=======
-				FA2C605B2F21180D007462A0 /* HashTreeCollections in Frameworks */,
-				FA2C60552F21180D007462A0 /* Collections in Frameworks */,
-				FA2C60572F21180D007462A0 /* ContainersPreview in Frameworks */,
-				FA2C605D2F21180D007462A0 /* HeapModule in Frameworks */,
-				FA2C60592F21180D007462A0 /* DequeModule in Frameworks */,
-				FA2C60532F21180D007462A0 /* BitCollections in Frameworks */,
-				FA2C605F2F21180D007462A0 /* OrderedCollections in Frameworks */,
-				FA2C60612F21180D007462A0 /* TrailingElementsModule in Frameworks */,
-				FA2C60632F21180D007462A0 /* _RopeModule in Frameworks */,
-				FA2C60512F21180D007462A0 /* BasicContainers in Frameworks */,
->>>>>>> local_main
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,11 +40,7 @@
 		FA556D272F20F0A000925A26 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				FA556D262F20F0A000925A26 /* swift test.app */,
-=======
-				FA556D262F20F0A000925A26 /* MacAudio.app */,
->>>>>>> local_main
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,15 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-<<<<<<< HEAD
 		FA556D252F20F0A000925A26 /* swift test */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA556D312F20F0A200925A26 /* Build configuration list for PBXNativeTarget "swift test" */;
-=======
-		FA556D252F20F0A000925A26 /* MacAudio */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FA556D312F20F0A200925A26 /* Build configuration list for PBXNativeTarget "MacAudio" */;
->>>>>>> local_main
 			buildPhases = (
 				FA556D222F20F0A000925A26 /* Sources */,
 				FA556D232F20F0A000925A26 /* Frameworks */,
@@ -104,29 +63,11 @@
 			fileSystemSynchronizedGroups = (
 				FA556D282F20F0A000925A26 /* swift test */,
 			);
-<<<<<<< HEAD
 			name = "swift test";
 			packageProductDependencies = (
 			);
 			productName = "swift test";
 			productReference = FA556D262F20F0A000925A26 /* swift test.app */;
-=======
-			name = MacAudio;
-			packageProductDependencies = (
-				FA2C60502F21180D007462A0 /* BasicContainers */,
-				FA2C60522F21180D007462A0 /* BitCollections */,
-				FA2C60542F21180D007462A0 /* Collections */,
-				FA2C60562F21180D007462A0 /* ContainersPreview */,
-				FA2C60582F21180D007462A0 /* DequeModule */,
-				FA2C605A2F21180D007462A0 /* HashTreeCollections */,
-				FA2C605C2F21180D007462A0 /* HeapModule */,
-				FA2C605E2F21180D007462A0 /* OrderedCollections */,
-				FA2C60602F21180D007462A0 /* TrailingElementsModule */,
-				FA2C60622F21180D007462A0 /* _RopeModule */,
-			);
-			productName = "swift test";
-			productReference = FA556D262F20F0A000925A26 /* MacAudio.app */;
->>>>>>> local_main
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -153,22 +94,12 @@
 			);
 			mainGroup = FA556D1D2F20F0A000925A26;
 			minimizedProjectReferenceProxies = 1;
-<<<<<<< HEAD
-=======
-			packageReferences = (
-				FA2C604F2F21180D007462A0 /* XCRemoteSwiftPackageReference "swift-collections" */,
-			);
->>>>>>> local_main
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FA556D272F20F0A000925A26 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-<<<<<<< HEAD
 				FA556D252F20F0A000925A26 /* swift test */,
-=======
-				FA556D252F20F0A000925A26 /* MacAudio */,
->>>>>>> local_main
 			);
 		};
 /* End PBXProject section */
@@ -315,36 +246,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-<<<<<<< HEAD
-=======
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
->>>>>>> local_main
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A3RX49S232;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< HEAD
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-=======
-				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
-				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
-				ENABLE_PREVIEWS = YES;
-				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = YES;
-				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
-				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
-				ENABLE_RESOURCE_ACCESS_CAMERA = YES;
-				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
-				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
-				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
-				ENABLE_RESOURCE_ACCESS_USB = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to the camera to allow you to select your default webcam device.";
->>>>>>> local_main
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -355,10 +264,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
-=======
->>>>>>> local_main
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
@@ -366,25 +272,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "test.swift-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
-<<<<<<< HEAD
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-=======
-				SDKROOT = macosx;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = macosx;
->>>>>>> local_main
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-<<<<<<< HEAD
 				TARGETED_DEVICE_FAMILY = "1,2,7";
 				XROS_DEPLOYMENT_TARGET = 26.2;
-=======
->>>>>>> local_main
 			};
 			name = Debug;
 		};
@@ -393,36 +290,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-<<<<<<< HEAD
-=======
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
->>>>>>> local_main
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A3RX49S232;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< HEAD
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-=======
-				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
-				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
-				ENABLE_PREVIEWS = YES;
-				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = YES;
-				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
-				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
-				ENABLE_RESOURCE_ACCESS_CAMERA = YES;
-				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
-				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
-				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
-				ENABLE_RESOURCE_ACCESS_USB = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to the camera to allow you to select your default webcam device.";
->>>>>>> local_main
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -433,10 +308,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
-=======
->>>>>>> local_main
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
@@ -444,25 +316,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "test.swift-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
-<<<<<<< HEAD
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-=======
-				SDKROOT = macosx;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = macosx;
->>>>>>> local_main
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-<<<<<<< HEAD
 				TARGETED_DEVICE_FAMILY = "1,2,7";
 				XROS_DEPLOYMENT_TARGET = 26.2;
-=======
->>>>>>> local_main
 			};
 			name = Release;
 		};
@@ -478,11 +341,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-<<<<<<< HEAD
 		FA556D312F20F0A200925A26 /* Build configuration list for PBXNativeTarget "swift test" */ = {
-=======
-		FA556D312F20F0A200925A26 /* Build configuration list for PBXNativeTarget "MacAudio" */ = {
->>>>>>> local_main
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA556D322F20F0A200925A26 /* Debug */,
@@ -492,73 +351,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-<<<<<<< HEAD
-=======
-
-/* Begin XCRemoteSwiftPackageReference section */
-		FA2C604F2F21180D007462A0 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/apple/swift-collections.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.3.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		FA2C60502F21180D007462A0 /* BasicContainers */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FA2C604F2F21180D007462A0 /* XCRemoteSwiftPackageReference "swift-collections" */;
-			productName = BasicContainers;
-		};
-		FA2C60522F21180D007462A0 /* BitCollections */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FA2C604F2F21180D007462A0 /* XCRemoteSwiftPackageReference "swift-collections" */;
-			productName = BitCollections;
-		};
-		FA2C60542F21180D007462A0 /* Collections */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FA2C604F2F21180D007462A0 /* XCRemoteSwiftPackageReference "swift-collections" */;
-			productName = Collections;
-		};
-		FA2C60562F21180D007462A0 /* ContainersPreview */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FA2C604F2F21180D007462A0 /* XCRemoteSwiftPackageReference "swift-collections" */;
-			productName = ContainersPreview;
-		};
-		FA2C60582F21180D007462A0 /* DequeModule */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FA2C604F2F21180D007462A0 /* XCRemoteSwiftPackageReference "swift-collections" */;
-			productName = DequeModule;
-		};
-		FA2C605A2F21180D007462A0 /* HashTreeCollections */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FA2C604F2F21180D007462A0 /* XCRemoteSwiftPackageReference "swift-collections" */;
-			productName = HashTreeCollections;
-		};
-		FA2C605C2F21180D007462A0 /* HeapModule */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FA2C604F2F21180D007462A0 /* XCRemoteSwiftPackageReference "swift-collections" */;
-			productName = HeapModule;
-		};
-		FA2C605E2F21180D007462A0 /* OrderedCollections */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FA2C604F2F21180D007462A0 /* XCRemoteSwiftPackageReference "swift-collections" */;
-			productName = OrderedCollections;
-		};
-		FA2C60602F21180D007462A0 /* TrailingElementsModule */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FA2C604F2F21180D007462A0 /* XCRemoteSwiftPackageReference "swift-collections" */;
-			productName = TrailingElementsModule;
-		};
-		FA2C60622F21180D007462A0 /* _RopeModule */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FA2C604F2F21180D007462A0 /* XCRemoteSwiftPackageReference "swift-collections" */;
-			productName = _RopeModule;
-		};
-/* End XCSwiftPackageProductDependency section */
->>>>>>> local_main
 	};
 	rootObject = FA556D1E2F20F0A000925A26 /* Project object */;
 }

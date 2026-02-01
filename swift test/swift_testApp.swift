@@ -4,26 +4,13 @@
 //
 //  Created by Eleonora Kurowska on 21/01/2026.
 //
-<<<<<<< HEAD
-//
-=======
 // to do:
 // add a setting to "lock" the input and output devices, so that when anything changes the setting outside the app, snap it to last selected one
->>>>>>> local_main
 
 import SwiftUI
 import CoreAudio
 import AudioToolbox
 import Combine
-<<<<<<< HEAD
-
-@main
-struct SwiftTestApp: App {
-    var body: some Scene {
-        MenuBarExtra("Audio Devices", systemImage: "speaker.wave.2") {
-            ContentView()
-        }
-=======
 import AppKit
 import ServiceManagement
 import AVFoundation
@@ -109,7 +96,6 @@ struct SwiftTestApp: App {
             }
         }
         .menuBarExtraStyle(.menu)
->>>>>>> local_main
     }
 }
 
@@ -118,9 +104,6 @@ struct AudioDevice: Identifiable, Equatable, Hashable {
     let name: String
 }
 
-<<<<<<< HEAD
-class AudioDeviceManager: ObservableObject {
-=======
 struct VideoDevice: Identifiable, Equatable, Hashable {
     let id: String  // Use AVCaptureDevice.uniqueID
     let name: String
@@ -197,16 +180,10 @@ class AudioDeviceManager: ObservableObject {
     private static let preferredOutputKey = "PreferredAudioOutputDeviceID"
     private static let lockDevicesKey = "LockAudioDevices"
 
->>>>>>> local_main
     @Published var inputDevices: [AudioDevice] = []
     @Published var outputDevices: [AudioDevice] = []
     @Published var selectedInput: AudioDevice? = nil
     @Published var selectedOutput: AudioDevice? = nil
-<<<<<<< HEAD
-
-    init() {
-        loadDevices()
-=======
     @Published var lockDevices: Bool {
         didSet {
             UserDefaults.standard.set(lockDevices, forKey: Self.lockDevicesKey)
@@ -220,7 +197,6 @@ class AudioDeviceManager: ObservableObject {
         self.lockDevices = UserDefaults.standard.bool(forKey: Self.lockDevicesKey)
         loadDevices()
         startObservingAudioHardware()
->>>>>>> local_main
     }
 
     func loadDevices() {
@@ -229,8 +205,6 @@ class AudioDeviceManager: ObservableObject {
 
         selectedInput = inputDevices.first(where: { $0.id == getDefaultDeviceID(isInput: true) })
         selectedOutput = outputDevices.first(where: { $0.id == getDefaultDeviceID(isInput: false) })
-<<<<<<< HEAD
-=======
 
         restorePreferredSelections()
     }
@@ -331,8 +305,8 @@ class AudioDeviceManager: ObservableObject {
             }
         }
         restorePreferredSelections()
->>>>>>> local_main
     }
+
 
     private func fetchDevices(isInput: Bool) -> [AudioDevice] {
         var propertySize = UInt32(0)
@@ -426,30 +400,17 @@ class AudioDeviceManager: ObservableObject {
             UInt32(MemoryLayout<AudioDeviceID>.size),
             &deviceID
         )
-<<<<<<< HEAD
-=======
         if isInput {
             UserDefaults.standard.set(deviceID, forKey: Self.preferredInputKey)
         } else {
             UserDefaults.standard.set(deviceID, forKey: Self.preferredOutputKey)
         }
->>>>>>> local_main
         loadDevices() // Refresh selections
     }
 }
 
 struct ContentView: View {
     @StateObject private var deviceManager = AudioDeviceManager()
-<<<<<<< HEAD
-
-    var body: some View {
-        VStack(alignment: .leading, spacing: 24) {
-            Text("Default Audio Device Selector")
-                .font(.title2)
-                .bold()
-            Group {
-                Text("Output Device:")
-=======
     @StateObject private var videoManager = VideoDeviceManager()
 
     var body: some View {
@@ -458,7 +419,6 @@ struct ContentView: View {
                 //.font(.title2)
                 //.bold()
             Group {
->>>>>>> local_main
                 Picker("Output Device", selection: Binding(
                     get: { deviceManager.selectedOutput ?? deviceManager.outputDevices.first },
                     set: { if let dev = $0 { deviceManager.setDefaultDevice(dev, isInput: false) } }
@@ -470,10 +430,6 @@ struct ContentView: View {
                 .pickerStyle(PopUpButtonPickerStyle())
             }
             Group {
-<<<<<<< HEAD
-                Text("Input Device:")
-=======
->>>>>>> local_main
                 Picker("Input Device", selection: Binding(
                     get: { deviceManager.selectedInput ?? deviceManager.inputDevices.first },
                     set: { if let dev = $0 { deviceManager.setDefaultDevice(dev, isInput: true) } }
@@ -484,9 +440,6 @@ struct ContentView: View {
                 }
                 .pickerStyle(PopUpButtonPickerStyle())
             }
-<<<<<<< HEAD
-            Spacer()
-=======
             Group {
                 Picker("Default Webcam", selection: Binding(
                     get: { videoManager.selectedVideo ?? videoManager.videoDevices.first },
@@ -505,7 +458,6 @@ struct ContentView: View {
             .toggleStyle(.checkbox)
             .help("When enabled, the app will automatically restore your selected audio devices if they're changed by other apps or system settings")
             Divider()
->>>>>>> local_main
         }
         .padding(30)
         .frame(minWidth: 340, minHeight: 300)
@@ -515,7 +467,4 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> local_main

@@ -4,11 +4,26 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+<<<<<<< HEAD
 		<key>swift test.xcscheme_^#shared#^_</key>
+=======
+		<key>Input Selector.xcscheme_^#shared#^_</key>
+>>>>>>> local_main
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
 	</dict>
+<<<<<<< HEAD
+=======
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>FA556D252F20F0A000925A26</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+>>>>>>> local_main
 </dict>
 </plist>

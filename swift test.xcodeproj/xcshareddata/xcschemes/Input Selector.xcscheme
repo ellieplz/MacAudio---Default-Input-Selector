@@ -16,8 +16,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FA556D252F20F0A000925A26"
-               BuildableName = "MacAudio.app"
-               BlueprintName = "MacAudio"
+               BuildableName = "swift test.app"
+               BlueprintName = "swift test"
                ReferencedContainer = "container:swift test.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA556D252F20F0A000925A26"
-            BuildableName = "MacAudio.app"
-            BlueprintName = "MacAudio"
+            BuildableName = "swift test.app"
+            BlueprintName = "swift test"
             ReferencedContainer = "container:swift test.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA556D252F20F0A000925A26"
-            BuildableName = "MacAudio.app"
-            BlueprintName = "MacAudio"
+            BuildableName = "swift test.app"
+            BlueprintName = "swift test"
             ReferencedContainer = "container:swift test.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
